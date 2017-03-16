@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.marylandweatherapp.StateServiceSpec" tests="5" skipped="0" failures="0" errors="0" timestamp="2017-03-16T19:50:37" hostname="oevbuoma-XPS-L421X" time="1.017">
+  <properties/>
+  <testcase name="test list states method" classname="com.marylandweatherapp.StateServiceSpec" time="0.899"/>
+  <testcase name="test save state method" classname="com.marylandweatherapp.StateServiceSpec" time="0.032"/>
+  <testcase name="test update state method" classname="com.marylandweatherapp.StateServiceSpec" time="0.048"/>
+  <testcase name="test update weather method" classname="com.marylandweatherapp.StateServiceSpec" time="0.022"/>
+  <testcase name="test delete method" classname="com.marylandweatherapp.StateServiceSpec" time="0.015"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

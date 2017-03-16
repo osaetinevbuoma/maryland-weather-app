@@ -1,0 +1,8 @@
+{
+"version":3,
+"file":"app.module.js",
+"lineCount":2,
+"mappings":"A;AAEC,SAAS,EAAG,CACTA,OAAAC,OAAA,CAAe,YAAf,CAA6B,CAAC,uBAAD,CAA0B,mBAA1B,CAA7B,CADS,CAAZ,CAAD;",
+"sources":["app.module.unminified.js"],
+"names":["angular","module"]
+}
