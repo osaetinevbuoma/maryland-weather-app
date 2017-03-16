@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.marylandweatherapp.AdminControllerSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-03-16T19:50:39" hostname="oevbuoma-XPS-L421X" time="0.522">
-  <properties/>
-  <testcase name="test something" classname="com.marylandweatherapp.AdminControllerSpec" time="0.522"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
