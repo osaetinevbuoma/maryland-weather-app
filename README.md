@@ -9,7 +9,7 @@ This weather app is built with Grails 3 and leverages Leaflet map library and We
 <li>Download Grails <a href="grails.org">here</a> and install following the instruction on the website</li>
 <li>Download the Weather App zip file and extract in desired location</li>
 <li>
- In terminal, do the following:
+ In terminal, do the following: <br />
  <code>
  ~: cd path/to/extracted/dir
  </code>
@@ -29,7 +29,7 @@ This weather app is built with Grails 3 and leverages Leaflet map library and We
 </ul>
 </pre>
 
-### Authentication Details
+## Authentication Details
 In order to log into the admin of Weather App, use the following authentication details:
 <pre>
 Username: admin 
