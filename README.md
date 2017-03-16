@@ -13,6 +13,7 @@ This weather app is built with Grails 3 and leverages Leaflet map library and We
  <code>
  ~: cd path/to/extracted/dir
  </code>
+ <br />
  <code>
  ~: grails run-app
  </code>
