@@ -15,7 +15,7 @@ In terminal, do the following:
 <pre>
 Download and install Apache Tomcat
 Download the Weather App zip and extract to desired location
-Copy the war file (MarylandWeatherApp-0.1.war) in build/libs to Apache Tomcat directory
+Copy the war file (MarylandWeatherApp-0.1.war) in war directory to Apache Tomcat directory
 Run Apache Tomcat server to view Weather App
 </pre>
 
