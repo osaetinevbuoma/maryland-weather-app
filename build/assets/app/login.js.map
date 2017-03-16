@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"login.js",
-"lineCount":2,
-"mappings":"A;AAEAA,CAAA,CAAEC,QAAF,CAAAC,MAAA,CAAkB,QAAS,EAAG,CAC1BF,CAAA,CAAE,MAAF,CAAAG,IAAA,CAAc,CAAE,mBAAoB,+BAAtB,CAAuD,oBAAqB,WAA5E,CAAyF,kBAAmB,OAA5G,CAAd,CACAH,EAAA,CAAE,KAAF,CAAAI,KAAA,EAF0B,CAA9B;",
-"sources":["login.unminified.js"],
-"names":["$","document","ready","css","hide"]
-}

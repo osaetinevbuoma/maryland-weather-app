@@ -1,2 +1,0 @@
-//# sourceMappingURL=app.service.js.map
-(function(){angular.module("WeatherAppFactory",[]).factory("WeatherAppService",["$http",function(c){return{fetchStates:function(a){c.get("/admin/listStates").then(a)},saveState:function(a,b,d){c.post("/admin/saveState",a).then(b,d)},updateState:function(a,b,d){c.put("/admin/updateState",a).then(b,d)},updateWeather:function(a,b,d){c.put("/admin/updateWeather",a).then(b,d)},deleteState:function(a,b){c.delete("/admin/deleteState/"+a).then(b)}}}])})();

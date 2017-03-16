@@ -1,6 +1,0 @@
-#Thu, 16 Mar 2017 21:36:25 +0100
-
-info.app.version=0.1
-info.app.name=MarylandWeatherApp
-grails.env=production
-info.app.grailsVersion=3.2.7

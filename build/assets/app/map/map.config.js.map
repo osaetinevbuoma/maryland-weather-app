@@ -1,8 +1,0 @@
-{
-"version":3,
-"file":"map.config.js",
-"lineCount":2,
-"mappings":"A;AAIAA,UAAA,CAAa,CACTC,aAAc,mGADL,CAETC,GAAI,wBAFK,CAGTC,SAAU,KAHD,CAITC,UAAW,MAJF,CAKTC,SAAU,CALD,CAMTC,SAAU,EAND,CAOTC,iBAAkB,kBAPT;",
-"sources":["map.config.unminified.js"],
-"names":["map_config","access_token","id","latitude","longitude","min_zoom","max_zoom","wunderground_key"]
-}
