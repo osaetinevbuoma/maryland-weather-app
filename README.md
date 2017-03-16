@@ -11,7 +11,9 @@ This weather app is built with Grails 3 and leverages Leaflet map library and We
 <li>
  In terminal, do the following:
  <code>
- ~: cd path/to/extracted/dir <br />
+ ~: cd path/to/extracted/dir
+ </code>
+ <code>
  ~: grails run-app
  </code>
  </li>
@@ -30,6 +32,6 @@ This weather app is built with Grails 3 and leverages Leaflet map library and We
 ### Authentication Details
 In order to log into the admin of Weather App, use the following authentication details:
 <pre>
-Username: admin <br />
+Username: admin 
 Password: admin
 </pre>
