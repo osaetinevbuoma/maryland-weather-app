@@ -5,23 +5,18 @@ This weather app is built with Grails 3 and leverages Leaflet map library and We
 ## Installation
 ### Method 1
 <pre>
-<ul>
-<li>Download Grails <a href="grails.org">here</a> and install following the instruction on the website</li>
-<li>Download the Weather App zip file and extract in desired location</li>
-<li>In terminal, do the following: 
+Download Grails <a href="grails.org">here</a> and install following the instruction on the website
+Download the Weather App zip file and extract in desired location
+In terminal, do the following: 
  <code>~: cd path/to/extracted/dir</code>
  <code>~: grails run-app</code>
- </li>
-</ul>
 </pre>
 ### Method 2
 <pre>
-<ul>
-<li>Download and install Apache Tomcat</li>
-<li>Download the Weather App zip and extract to desired location</li>
-<li>Copy the war file (MarylandWeatherApp-0.1.war) in build/libs to Apache Tomcat directory</li>
-<li>Run Apache Tomcat server to view Weather App</li>
-</ul>
+Download and install Apache Tomcat
+Download the Weather App zip and extract to desired location
+Copy the war file (MarylandWeatherApp-0.1.war) in build/libs to Apache Tomcat directory
+Run Apache Tomcat server to view Weather App
 </pre>
 
 ## Authentication Details
