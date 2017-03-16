@@ -8,14 +8,9 @@ This weather app is built with Grails 3 and leverages Leaflet map library and We
 <ul>
 <li>Download Grails <a href="grails.org">here</a> and install following the instruction on the website</li>
 <li>Download the Weather App zip file and extract in desired location</li>
-<li>
- In terminal, do the following: 
- <code>
- ~: cd path/to/extracted/dir
- </code>
- <code>
- ~: grails run-app
- </code>
+<li>In terminal, do the following: 
+ <code>~: cd path/to/extracted/dir</code>
+ <code>~: grails run-app</code>
  </li>
 </ul>
 </pre>
