@@ -10,12 +10,12 @@ This weather app is built with Grails 3 and leverages Leaflet map library and We
 <li>Download the Weather App zip file and extract in desired location</li>
 <li>
  In terminal, do the following:
- </li>
-</ul>
-<code>
- ~: cd path/to/extracted/dir <br/>
+ <code>
+ ~: cd path/to/extracted/dir <br />
  ~: grails run-app
  </code>
+ </li>
+</ul>
 </pre>
 ### Method 2
 <pre>
