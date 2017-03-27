@@ -30,7 +30,7 @@ class HomeController {
     def saveData() {
         State state = stateService.updateState(Integer.valueOf(params.id), 
             Double.valueOf(params.currentTempF), Double.valueOf(params.currentTempC), 
-            Double.valueOf(params.relativeHumidity), params.windDirection, 
+            params.relativeHumidity, params.windDirection,
             Double.valueOf(params.windSpeed), Double.valueOf(params.visibility), 
             params.iconUrl)
 

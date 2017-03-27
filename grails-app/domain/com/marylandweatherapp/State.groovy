@@ -9,7 +9,7 @@ class State {
     double currentTempF
     double currentTempC
     String iconUrl
-    double relativeHumidity
+    String relativeHumidity
     String windDirection
     double windSpeed
     double visibility

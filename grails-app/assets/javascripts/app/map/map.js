@@ -83,8 +83,6 @@
             var id = e.target.feature.properties.id;
             var lgas = e.target.feature.properties.lgas;
 
-            localStorage.clear();
-
             if (localStorage.hasOwnProperty(state) && new Date(JSON.parse(localStorage[state]).expiry) > new Date()) {
                 // display info in dialog
                 displayStateInformation(JSON.parse(localStorage[state]));

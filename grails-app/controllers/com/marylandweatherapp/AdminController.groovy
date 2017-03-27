@@ -96,7 +96,7 @@ class AdminController {
         checkAdmin()
 
         State state = stateService.updateState(Integer.valueOf(request.JSON.id), Double.valueOf(request.JSON.currentTempF),
-                Double.valueOf(request.JSON.currentTempC), Double.valueOf(request.JSON.relativeHumidity),
+                Double.valueOf(request.JSON.currentTempC), request.JSON.relativeHumidity,
                 request.JSON.windDirection, Double.valueOf(request.JSON.windSpeed), Double.valueOf(request.JSON.visibility),
                 request.JSON.iconUrl)
 

@@ -85,7 +85,7 @@ class StateService {
      * @param id                    int     unique id of state
      * @param currentTempF          double   current temperature in degrees F
      * @param currentTempC          double   current temperature in degrees C
-     * @param relativeHumidity      double   current relative humidity
+     * @param relativeHumidity      String   current relative humidity
      * @param windDirection         String  current wind direction
      * @param windSpeed             double   current wind speed in km/h
      * @param visibility            double   current visibility in km
@@ -94,7 +94,7 @@ class StateService {
      */
     @Transactional
     State updateState(int id, double currentTempF,
-                      double currentTempC, double relativeHumidity, String windDirection,
+                      double currentTempC, String relativeHumidity, String windDirection,
                       double windSpeed, double visibility, String iconUrl) {
         State state = State.get(id)
         state.currentTempF = currentTempF
@@ -209,7 +209,7 @@ class StateService {
             addNumber(sheet, 4, row, state.longitude, tahoma)
             addNumber(sheet, 5, row, state.currentTempF, tahoma)
             addNumber(sheet, 6, row, state.currentTempC, tahoma)
-            addNumber(sheet, 7, row, state.relativeHumidity, tahoma)
+            addString(sheet, 7, row, state.relativeHumidity, tahoma)
             addString(sheet, 8, row, state.windDirection, tahoma)
             addNumber(sheet, 9, row, state.windSpeed, tahoma)
             addNumber(sheet, 10, row, state.visibility, tahoma)
