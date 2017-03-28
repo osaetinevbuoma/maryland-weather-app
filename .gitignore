@@ -9,3 +9,5 @@ build/
 .project
 .settings
 .classpath
+/weather_app.xlsx
+/weather_app.xls
