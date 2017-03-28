@@ -237,8 +237,7 @@ class StateService {
     private static void addColumnTitle(WritableSheet sheet, int column, int row, String s, 
                                    WritableCellFormat tahomaBold) throws RowsExceededException, 
             WriteException {
-        jxl.write.Label label
-        label = new jxl.write.Label(column, row, s, tahomaBold)
+        jxl.write.Label label = new jxl.write.Label(column, row, s, tahomaBold)
         sheet.addCell(label)
     }
 
@@ -255,8 +254,7 @@ class StateService {
      */
     private static void addNumber(WritableSheet sheet, int column, int row, Double aDouble, 
                                   WritableCellFormat tahoma) throws WriteException, RowsExceededException {
-        jxl.write.Number number
-        number = new jxl.write.Number(column, row, aDouble, tahoma)
+        jxl.write.Number number = new jxl.write.Number(column, row, aDouble, tahoma)
         sheet.addCell(number)
     }
 
@@ -273,8 +271,7 @@ class StateService {
      */
     private static void addString(WritableSheet sheet, int column, int row, String s, 
                                  WritableCellFormat tahoma) throws WriteException, RowsExceededException {
-        jxl.write.Label label
-        label = new jxl.write.Label(column, row, s, tahoma)
+        jxl.write.Label label = new jxl.write.Label(column, row, s, tahoma)
         sheet.addCell(label)
     }
 }
