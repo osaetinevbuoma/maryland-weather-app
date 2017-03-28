@@ -77,7 +77,7 @@ class StateServiceSpec extends Specification {
     		stateService.transactionManager = getTransactionManager()
     		int id = 1
 	    	double currentTempF = 5.3
-	    	double relativeHumidity = 30
+	    	String relativeHumidity = "30%"
 	    	String windDirection = "NE"
 	    	double currentTempC
 	    	double windSpeed

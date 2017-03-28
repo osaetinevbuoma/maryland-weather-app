@@ -62,7 +62,7 @@ class StateService {
      * @return  State   updated state object
      */
     @Transactional
-        State updateState(int id, String name, String city, int lgas, double latitude, double longitude) {
+    State updateState(int id, String name, String city, int lgas, double latitude, double longitude) {
         State state = State.get(id)
         state.name = name
         state.city = city
@@ -185,8 +185,8 @@ class StateService {
         addColumnTitle(sheet, 6, 0, "Current Temperature (C)", tahomaBold)
         addColumnTitle(sheet, 7, 0, "Relative Humidity", tahomaBold)
         addColumnTitle(sheet, 8, 0, "Wind Direction", tahomaBold)
-        addColumnTitle(sheet, 9, 0, "Wind Speed", tahomaBold)
-        addColumnTitle(sheet, 10, 0, "Wind Visibility", tahomaBold)
+        addColumnTitle(sheet, 9, 0, "Wind Speed (mph)", tahomaBold)
+        addColumnTitle(sheet, 10, 0, "Wind Visibility (km)", tahomaBold)
     }
 
     /**
